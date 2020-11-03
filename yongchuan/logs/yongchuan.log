@@ -2,3 +2,13 @@ INFO 2020-11-03 15:33:02,005 autoreload 613 Watching for file changes with StatR
 INFO 2020-11-03 15:33:03,983 basehttp 157 "GET / HTTP/1.1" 200 16299
 WARNING 2020-11-03 15:33:04,089 log 224 Not Found: /favicon.ico
 WARNING 2020-11-03 15:33:04,090 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 1975
+INFO 2020-11-03 16:12:21,800 autoreload 613 Watching for file changes with StatReloader
+INFO 2020-11-03 16:13:15,826 autoreload 613 Watching for file changes with StatReloader
+INFO 2020-11-03 16:13:23,379 autoreload 236 C:\Users\user\opt\server\yongchuan\yongchuan\settings\dev.py changed, reloading.
+INFO 2020-11-03 16:13:24,083 autoreload 613 Watching for file changes with StatReloader
+INFO 2020-11-03 16:14:03,036 autoreload 236 C:\Users\user\opt\server\yongchuan\yongchuan\settings\dev.py changed, reloading.
+INFO 2020-11-03 16:14:03,679 autoreload 613 Watching for file changes with StatReloader
+INFO 2020-11-03 16:15:13,787 autoreload 613 Watching for file changes with StatReloader
+INFO 2020-11-03 16:15:15,573 basehttp 157 "GET / HTTP/1.1" 200 16299
+WARNING 2020-11-03 16:15:15,683 log 224 Not Found: /favicon.ico
+WARNING 2020-11-03 16:15:15,683 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 1975

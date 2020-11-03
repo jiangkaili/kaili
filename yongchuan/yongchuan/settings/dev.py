@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -120,7 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,  # 是否禁用已经存在的日志器
@@ -162,9 +165,9 @@ LOGGING = {
     }
 }
 
-print( os.path.join(os.path.dirname(BASE_DIR), "logs/yongchuan.log"))
-
 REST_FRAMEWORK = {
     # 异常处理
     'EXCEPTION_HANDLER': 'yongchuan.utils.exceptions.exception_handler',
 }
+
+AUTH_USER_MODEL = 'users.User'
